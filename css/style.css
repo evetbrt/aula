@@ -1,0 +1,28 @@
+h1{
+    color: blueviolet;
+}
+
+.h1_titulo{
+    background-color: rgb(150, 150, 231);
+    height: 350px; 
+    
+
+    
+}
+.h2_frase{
+    color: black;
+ 
+}
+.h2_titulo{
+    color:black;
+}
+.h3_frase{
+    background-color: rgb(250, 250, 250);
+    height: 200px;
+
+
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+}
