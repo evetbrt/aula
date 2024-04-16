@@ -16,11 +16,17 @@ h1{
 
    .h1_titulo{
     background-color: rgba(150, 150, 231, 0.422);
-    height: 350px;
+    height: 575px;
     border-radius: 10px;
     border: 3px dashed rgba(255, 255, 255, 0.349);
     box-shadow: 0 0 20px white;
+    text-align: center;
+    overflow: auto;
     
+}
+.div01_img img{
+    width: 200px;
+    height: 200px;
 }
 .h1_titulo:hover{
     box-shadow: 0 0 20px cyan;
@@ -28,27 +34,42 @@ h1{
 
 .h2_frase{
     color: rgba(215, 5, 222, 0.516);
- 
-}
+    }
 
-.h2_titulo:hover{
-    box-shadow: 0 0 20px cyan;
-}
+
 
 .h2_titulo{
     color:rgb(11, 12, 4);
     border-radius: 10px;
     box-shadow: 0 0 20px white;   
     border: 3px dashed rgba(255, 255, 255, 0.349);
+    text-align: center;
+    overflow: auto;
+  }
+  
+  .h2_titulo:hover{
+    box-shadow: 0 0 20px cyan;
+}
+.div02_img img{
+        width: 200px;
+        height: 200px;
+    }
     
+.div_video2 video{
+        width: 360px;
+        height: 200px;
+        
 
+    }
+
+    .h3_frase{
+    color:rgba(16, 140, 223, 0.479);
+    height: 150px;
+    border-radius: 10px;   
+    overflow: auto;
     
 }
-.h3_frase{
-    color:rgba(16, 140, 223, 0.479);
-    height: 350px;
-    border-radius: 20px;
-}
+
 .conteiner{
     display: flex;
     flex-direction: row;
