@@ -174,4 +174,21 @@ footer {
     background-color: rgba(122, 185, 233, 0.358);
     color: white;
     border-radius: 20px;
+    border: 3px dashed rgba(255, 255, 255, 0.349);
   }
+
+.formulario:hover{
+    box-shadow: 0 0 20px cyan;
+    transform: scale(1.1)
+}
+.formulario{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ margin: 50px;
+ gap: 20px;
+ background-color:rgba(122, 185, 233, 0.358);
+ border-radius: 10px;
+ font-family: 'Courier New', Courier, monospace;
+ border: 3px dashed rgba(255, 255, 255, 0.349);
+}
